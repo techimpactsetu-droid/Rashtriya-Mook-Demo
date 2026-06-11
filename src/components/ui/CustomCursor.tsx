@@ -43,7 +43,7 @@ export default function CustomCursor() {
     <>
       {/* Small dot */}
       <motion.div
-        className="fixed top-0 left-0 w-3 h-3 bg-accent rounded-full pointer-events-none z-[9999] mix-blend-difference"
+        className="fixed top-0 left-0 w-3 h-3 bg-accent rounded-full pointer-events-none z-[9999]"
         animate={{
           x: mousePosition.x - 6,
           y: mousePosition.y - 6,
@@ -53,7 +53,7 @@ export default function CustomCursor() {
       />
       {/* Large trailing circle */}
       <motion.div
-        className="fixed top-0 left-0 w-10 h-10 border border-accent rounded-full pointer-events-none z-[9999] mix-blend-difference"
+        className="fixed top-0 left-0 w-10 h-10 border border-accent rounded-full pointer-events-none z-[9999]"
         animate={{
           x: mousePosition.x - 20,
           y: mousePosition.y - 20,

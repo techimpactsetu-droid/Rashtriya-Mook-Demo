@@ -71,7 +71,6 @@ export default function RootLayout({
       <body
         className={`${playfair.variable} ${outfit.variable} font-sans antialiased min-h-screen flex flex-col relative`}
       >
-        <div className="noise-overlay" />
         <CustomCursor />
         <AnimatedBackground />
         <ScrollProgress />
